@@ -11,7 +11,7 @@ Designed by [Justin Proulx](https://www.twitter.com/justinalexp)
 - Open source, so you can modify it to your needs
 
 # Commands
-There are some special commands you can use to change app settings. I shoulda made a settings panel, but (long story) I ended up using a command system instead. Don't worry though, you shouldn't have to change these settings very often.
+There are some special commands you can use to change app settings. I should have made a settings panel, but (long story) I ended up using a command system instead. Don't worry though, you shouldn't have to change these settings very often.
 
 You use commands by typing a hashtag (#) in the search bar on the Search tab, followed by the command. For example, `#devdl`.
 
