@@ -4,7 +4,7 @@ A free and open-source iOS app that allows you to view, organize, download and s
 Designed by [Justin Proulx](https://www.twitter.com/justinalexp)
 
 # Features
-- Downloading in 240p, 360p and 720p
+- Downloading in SD and HD
 - Ability to make playlists
 - Ability to save videos to camera roll, and share it in other ways
 - Can become a dedicated ASMR player and manager if you're into that
