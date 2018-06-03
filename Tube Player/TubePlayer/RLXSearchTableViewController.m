@@ -96,7 +96,7 @@
     if ([[searchTerm lowercaseString] containsString:@"#"])
     {
         //get the command
-        NSString *command = [searchTerm substringFromIndex:[searchTerm rangeOfString:@"#"].location + 1];
+        NSString *command = [[searchTerm substringFromIndex:[searchTerm rangeOfString:@"#"].location + 1] lowercaseString];
         
         //check if the command is boolean
         BOOL isCommandBoolean;

@@ -58,12 +58,12 @@
 
 - (void)noPirate
 {
-    if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"DevPirate"] boolValue])
+    if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"devpirate"] boolValue])
     {
         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Notice" message:@"This application is not designed for piracy, and is rather meant to be used to easily download and share your own videos, or videos where the author has given permission to download. Please support content creators and do not pirate." preferredStyle:UIAlertControllerStyleAlert];
         [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil]];
         [self presentViewController:alert animated:YES completion:^{
-            [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:NO] forKey:@"DevPirate"];
+            [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:NO] forKey:@"devpirate"];
         }];
     }
 }
