@@ -39,7 +39,7 @@ Here are the commands and their functions:
 
 `devpirate`: Re-enables the piracy discouragement notice
 
-`ASMR`: Enables the ASMR filter, turning the app into an ASMR viewer, manager and downloader
+`ASMR`: Enables/Disables the ASMR filter, turning the app into an ASMR viewer, manager and downloader
 
 # Issues and Limitations
 - Can't log in to YouTube accounts (because of the YouTube API)
