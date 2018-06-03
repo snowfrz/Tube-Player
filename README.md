@@ -8,6 +8,19 @@ Designed by [Justin Proulx](https://www.twitter.com/justinalexp)
 
 Other versions are available [here](https://github.com/Sn0wCh1ld/Tube-Player/releases)
 
+# How to install
+Most people should install Tube Player using [Impactor](http://www.cydiaimpactor.com).
+
+1. Download the .ipa for Tube Player using the link above (in the Download section)
+2. Download Impactor
+3. Open Impactor
+4. Attach your device
+5. Trust the computer you are attached to, if asked
+6. When Impactor recognizes your device, drag Tube Player's .ipa file (the one you downloaded in step 1) onto its name
+7. You will be asked to put in your Apple ID username and password. Enter them.
+8. Wait for Tube Player to install.
+9. Enjoy!
+
 # Features
 - Downloading in SD and HD
 - Ability to make playlists
