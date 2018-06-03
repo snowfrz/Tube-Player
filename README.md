@@ -9,10 +9,10 @@ Designed by [Justin Proulx](https://www.twitter.com/justinalexp)
 Other versions are available [here](https://github.com/Sn0wCh1ld/Tube-Player/releases)
 
 # How to install
-Most people should install Tube Player using [Impactor](http://www.cydiaimpactor.com).
+Most people should install Tube Player using Impactor.
 
-1. Download the .ipa for Tube Player using the link above (in the Download section)
-2. Download Impactor
+1. Download the .ipa for Tube Player using the link in the Download section
+2. Download [Impactor](http://www.cydiaimpactor.com)
 3. Open Impactor
 4. Attach your device
 5. Trust the computer you are attached to, if asked
