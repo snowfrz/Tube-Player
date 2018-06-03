@@ -15,10 +15,12 @@ There are some special commands you can use to change app settings. I shoulda ma
 
 You use commands by typing a hashtag (#) in the search bar on the Search tab, followed by the command. For example, `#devdl`.
 
-Here are the commands and their functions
+Here are the commands and their functions:
 
 `devdl`: Enables/Disables downloading features
+
 `devpirate`: Re-enables the piracy discouragement notice
+
 `ASMR`: Enables the ASMR filter, turning the app into an ASMR viewer, manager and downloader
 
 # Issues and Limitations
