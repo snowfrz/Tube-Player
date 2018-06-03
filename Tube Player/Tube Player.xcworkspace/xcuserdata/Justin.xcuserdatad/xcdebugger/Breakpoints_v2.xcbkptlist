@@ -2280,11 +2280,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TubePlayer/RLXPlaylistTableViewController.m"
-            timestampString = "549692160.362998"
+            timestampString = "549695337.178918"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "-donate:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2296,11 +2296,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TubePlayer/RLXPlaylistTableViewController.m"
-            timestampString = "549692160.363186"
+            timestampString = "549695337.17901"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "-noPirate"
             landmarkType = "7">
          </BreakpointContent>
@@ -2312,7 +2312,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TubePlayer/RLXSearchTableViewController.m"
-            timestampString = "549692160.363309"
+            timestampString = "549694909.321329"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "96"
@@ -2328,7 +2328,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TubePlayer/AppDelegate.m"
-            timestampString = "549692160.363951"
+            timestampString = "549695337.179096"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
@@ -2344,7 +2344,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TubePlayer/RLXSearchTableViewController.m"
-            timestampString = "549692160.3640521"
+            timestampString = "549694909.3218451"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "178"
@@ -2360,7 +2360,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TubePlayer/RLXDownloadTrackerTableViewController.m"
-            timestampString = "549692160.364493"
+            timestampString = "549695337.179168"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "295"
@@ -2376,12 +2376,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TubePlayer/RLXDownloadTrackerTableViewController.m"
-            timestampString = "549692160.364596"
+            timestampString = "549695337.179222"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "297"
             endingLineNumber = "297"
             landmarkName = "-exportVideoWithSender:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TubePlayer/JPOSUpdateChecker.m"
+            timestampString = "549695337.179276"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-checkForUpdatesAtURL:withAppName:andAppHost:andHostURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TubePlayer/JPOSUpdateChecker.m"
+            timestampString = "549695337.179638"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-checkForUpdatesAtURL:withAppName:andAppHost:andHostURL:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

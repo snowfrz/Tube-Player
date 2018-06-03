@@ -53,7 +53,6 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [self refreshData];
-    [self noPirate];
 }
 
 - (void)noPirate
@@ -140,6 +139,8 @@
     }
     
     [self.tableView reloadData];
+    
+    [self noPirate];
 }
 
 - (void)didReceiveMemoryWarning {
