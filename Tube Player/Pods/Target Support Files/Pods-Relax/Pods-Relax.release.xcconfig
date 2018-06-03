@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CircleProgressBar" "${PODS_ROOT}/Headers/Public/IAPHelper" "${PODS_ROOT}/Headers/Public/RNCryptor-objc" "${PODS_ROOT}/Headers/Public/XCDYouTubeKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CircleProgressBar" "${PODS_CONFIGURATION_BUILD_DIR}/IAPHelper" "${PODS_CONFIGURATION_BUILD_DIR}/RNCryptor-objc" "${PODS_CONFIGURATION_BUILD_DIR}/XCDYouTubeKit"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CircleProgressBar" -isystem "${PODS_ROOT}/Headers/Public/IAPHelper" -isystem "${PODS_ROOT}/Headers/Public/RNCryptor-objc" -isystem "${PODS_ROOT}/Headers/Public/XCDYouTubeKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CircleProgressBar" -l"IAPHelper" -l"RNCryptor-objc" -l"XCDYouTubeKit" -framework "JavaScriptCore" -framework "MediaPlayer" -framework "QuartzCore" -framework "Security" -framework "StoreKit" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

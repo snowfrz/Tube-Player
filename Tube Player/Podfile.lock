@@ -1,0 +1,35 @@
+PODS:
+  - CircleProgressBar (0.32)
+  - IAPHelper (1.1)
+  - RNCryptor-objc (3.0.5)
+  - XCDYouTubeKit (2.5.6)
+
+DEPENDENCIES:
+  - CircleProgressBar (~> 0.32)
+  - IAPHelper (~> 1.1)
+  - RNCryptor-objc (from `https://github.com/RNCryptor/RNCryptor-objc.git`)
+  - XCDYouTubeKit (from `https://github.com/Sn0wCh1ld/XCDYouTubeKit.git`)
+
+EXTERNAL SOURCES:
+  RNCryptor-objc:
+    :git: https://github.com/RNCryptor/RNCryptor-objc.git
+  XCDYouTubeKit:
+    :git: https://github.com/Sn0wCh1ld/XCDYouTubeKit.git
+
+CHECKOUT OPTIONS:
+  RNCryptor-objc:
+    :commit: c73a0aac136bf0b95f0d87cb3f4b0fe4408caaad
+    :git: https://github.com/RNCryptor/RNCryptor-objc.git
+  XCDYouTubeKit:
+    :commit: 91f4e2be1cf3315235287883790a4157e6e52732
+    :git: https://github.com/Sn0wCh1ld/XCDYouTubeKit.git
+
+SPEC CHECKSUMS:
+  CircleProgressBar: 3920079be5224b62b3d9ed6eeb23ac01c835b681
+  IAPHelper: fd74f53b0ac142eed085777b88b86a11746a2dd4
+  RNCryptor-objc: a65b15493de05dda4af0f392c70372b7a5625aab
+  XCDYouTubeKit: dccfe0c17dd5c5187969ec27e93069573badb08f
+
+PODFILE CHECKSUM: 7998ed5213f1c852385eb0d1d1ae0e62e474a9ca
+
+COCOAPODS: 1.4.0

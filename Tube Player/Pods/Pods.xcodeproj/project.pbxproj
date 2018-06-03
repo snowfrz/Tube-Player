@@ -1,0 +1,1302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B87321CBC43D066193BA4EBB146F0E /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE67AF74B60BD3FA52E3F284CDCA51A /* RNDecryptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B8B643565385E0F6242F5A0F635AC6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1549200663107B679B00FE942A800ED5 /* Foundation.framework */; };
+		0D5DF049AC71A2BE6CA63BC85E6C8B32 /* RNCryptor-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A39CFBB01272DCC712FEDB8DFD29EC6 /* RNCryptor-objc-dummy.m */; };
+		0E742B018B3E540AF8BB37932AEAACFD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D9BFDAFF785D8E384346826AD67201 /* MediaPlayer.framework */; };
+		16D843A9DD7E4A44B6EE636D76D3BE56 /* Pods-RelaxUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA62A7048A353788E5E19426C4E59ED /* Pods-RelaxUITests-dummy.m */; };
+		20250CF7686D8907BD00FC41206BE285 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 723A0F8B315B018EF2B04A4F99858E64 /* SFHFKeychainUtils.m */; };
+		203B4B8BA26B9CA6B544D0A256316A8D /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 534C50F0F1D511D053CDEF5B2772B821 /* NSString+Base64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24C8BFF1500B0CB31B4732B0DFE777DC /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BD15BAF8F2FEFB3507FF64AD5B801D /* NSString+Base64.m */; };
+		29C5ED91AB08F82D5F35430980B075A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1549200663107B679B00FE942A800ED5 /* Foundation.framework */; };
+		446A22C036ADE89FE673398C75976EBF /* SFHFKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A34655897BC48BB2251550DB39EF960 /* SFHFKeychainUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48AF1B9F9D979947ACE853B127577D1B /* XCDYouTubeVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 636FFAF2A51041420DE655EA3F677A6A /* XCDYouTubeVideoPlayerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48B4FAE1BA2311E58C92035B266DAF91 /* IAPShare.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B2AFB5257C2B8140329745DE9EF98D /* IAPShare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49D068CBD6C9DFCEFD90AD9B81653BA4 /* XCDYouTubeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A86DBE5692924FF8E1695571AA816CC5 /* XCDYouTubeOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B125A95B05C486C3F2A928C32AF5E73 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C560B493C3C744534896510707C404 /* XCDYouTubePlayerScript.m */; };
+		4FCD72A9C14E5F202B8109B760DE9F24 /* XCDYouTubeVideoOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A863A5AB1D57023D4C06A8384AB5AD46 /* XCDYouTubeVideoOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FDC63FA6DDB6A28859AEFDF892B5A44 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B35D00DF47567783F7930816D779AFE /* JavaScriptCore.framework */; };
+		5061CF19CBD4134036A4885849AA9232 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = D73FAEF37E3D3F333611543D01E1AB91 /* RNEncryptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50875043B52BECA06C76CB37C37F0D9C /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 50578F5978D503574376E892170A68C9 /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		50B8A4400EB7A1977847A0F1A38B9D9C /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FDCEF079326D1A7E153661933E89C8 /* XCDYouTubeLogger.m */; };
+		5F678D6A1AF91D35D6850E313F678479 /* IAPHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A2C6E92DA80B2F9430A0D8C2FE4055 /* IAPHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		67656A0D6A0626E253A9A0FF85AA392B /* CircleProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D7FECC5BDBAF8B58046C5C291A778AF /* CircleProgressBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6EC10ABD2C7395444FDC02D972C30D46 /* XCDYouTubeLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABB7E81F09811DEBFB4A1DA8EFBB8E0 /* XCDYouTubeLogger+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		758137D6498CE43DCA2D27255AC551F8 /* XCDYouTubeClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B41FD47A5FCE11E0F0FDD23B51C0AEB /* XCDYouTubeClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78512805731ADD704A93DE3FB274D0A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1549200663107B679B00FE942A800ED5 /* Foundation.framework */; };
+		790124BEE41A4EA801C9B105D9BE61FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B290F073F6D931054F4996C9E76358AF /* UIKit.framework */; };
+		7C5A0758D77EBE6D11392B1DE8C663C9 /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B302B39F68B93B3E55EF459B71EAAB /* XCDYouTubeVideoWebpage.m */; };
+		8961FDD5C87979E1D6C066A7D5553CA4 /* IAPShare.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE357EBD423AF3554965C76AC4349F /* IAPShare.m */; };
+		8EC5538028983BB2182CF00F52A845AC /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FC1C4FC44E959932F7A35515699F1A /* XCDYouTubeClient.m */; };
+		8FD1C0608E2DF46C8A7A5C86F088CD97 /* IAPHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F8D18F3084610B82E4D1E3B0AF4023 /* IAPHelper-dummy.m */; };
+		90AD4CF70CAB59991B371F0FB34FAFE2 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D473A1268E44605938D13D83B4E7D8 /* RNCryptorEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		925C56DD455F6E41C6D7013F50B2D928 /* XCDYouTubeError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7390560F8BE1A3462CADBD6050A3E90B /* XCDYouTubeError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		925FCC8281723C2B1661986EDB6FD16F /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7D3CB4041A5E94468FA7507E7C3235 /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		93B82C2415F41407588823628CFA8615 /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E65F37222F8F7B8A5DF9D538A0C0C1D3 /* RNCryptor+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		952B8D30F919095C27616CC38B969624 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1549200663107B679B00FE942A800ED5 /* Foundation.framework */; };
+		9A5FB174022948DE2319706E9260C58F /* CircleProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A4C74330A16387C697794D2B0F762 /* CircleProgressBar-dummy.m */; };
+		A1AFC95F7E0E3BF9A76B9297AD233E27 /* XCDYouTubeLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 48304355322E3D998BD0C3806D0DBB44 /* XCDYouTubeLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A30CC8759A8EBCFEC572862A53563218 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD7099BF7C030EEFE9855CC2951F45 /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AC49384CF2F05DE229481DD13891B3DA /* XCDYouTubeVideoWebpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE7B50DAF9A870095B5D3293DBC20B5 /* XCDYouTubeVideoWebpage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AFFFA0BA80A1E682356C87C1256F914F /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BEC402F688B3E268429972FD187D44 /* XCDYouTubeVideo.m */; };
+		B4090D9CF37EAD328C960643FEBE2B2C /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F49FF3E59AFEEF67066D8D52FC045 /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B876F5192E4DB20E9B70ED08AACEA647 /* XCDYouTubeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC349E9B11E19B22E9F4CB935D671CB /* XCDYouTubeKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA2D13F708D0279DA304A61F0C1BA031 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BCD6B2FAE3B6EF32AF1E4C5B9D7E3A /* StoreKit.framework */; };
+		BA87F44253946414999E3EC1F7A0DA8A /* CircleProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD2011F35F810F550445FE29FF79724 /* CircleProgressBar.m */; };
+		BB948E5A8FD68FCDDF11E29BA4ADB876 /* Pods-Relax-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 375B5BB918F18C1AAF1D04DB88241942 /* Pods-Relax-dummy.m */; };
+		C9E0B3AC704B932D31023DE0EC14CE48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1549200663107B679B00FE942A800ED5 /* Foundation.framework */; };
+		CCD6D96D09DC5B36515AFE1FA25ADAFA /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 650E582037777A0085712D9952F068B6 /* XCDYouTubeVideoOperation.m */; };
+		CE1D5563F7F969F1603669D54C59AC09 /* XCDYouTubeVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DFA4501E338BB4496418DD3A03D098 /* XCDYouTubeVideoPlayerViewController.m */; };
+		D1AB1701483CB29A3FB462228A562AF4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FEE7E73F5BD4241A57D2D11E0318FE /* Security.framework */; };
+		D38D88D49C8EBC2E9E943CC034E52756 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1549200663107B679B00FE942A800ED5 /* Foundation.framework */; };
+		D5D26F8954348527D4D3FEEA36DE6451 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = A92185484E18E7F8451C2B678D48AFEB /* RNCryptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7A2124FE499C1860BE6AD2E1C08B3AF /* Pods-RelaxTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA41D249FC1F756645EC7280DB16E09 /* Pods-RelaxTests-dummy.m */; };
+		E8D3D8FABC2867EC4D7018C1D43323BA /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7F53DA1544ECFC6FDD91CB912F198F /* IAPHelper.m */; };
+		ED43DC0171F1B483726F07DB43CDD587 /* XCDYouTubePlayerScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8AE96311F063618D377F88468AA067 /* XCDYouTubePlayerScript.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F2C92A4205C32191B27B9868FEE208E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D9B688B54F032FEFBE966BCDA921EB /* QuartzCore.framework */; };
+		F3EC96D947C88D58E7959CF574FC63B7 /* XCDYouTubeVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = E0920FE13F1D65248D8FD77A0A4DE58A /* XCDYouTubeVideo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F49A39354D923EFF68013A21DA636219 /* XCDYouTubeVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FF90FCCB4863711C0E2A7D61BCBE6ACA /* XCDYouTubeVideo+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F76CD7A34F76CC5BC7FAFB6E49A6A036 /* XCDYouTubeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B42588948EFE4FD60112F0183307A0B3 /* XCDYouTubeKit-dummy.m */; };
+		FCE81ED26970B1357D54D3E75390E9B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1549200663107B679B00FE942A800ED5 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05E4A01D4E919664BA936BC4A712672F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3A5E63B713DCB0FFAD1D256426EE5CA;
+			remoteInfo = XCDYouTubeKit;
+		};
+		5407D3212ACD50E04E977E87B7CA02C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 893941B71A4E6451FF3F512EC17ECAF5;
+			remoteInfo = CircleProgressBar;
+		};
+		741DE40019C0BD8CBCBBECE4D5E0DB89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69BE96AF79E4E2B74694F2B2552DF1D5;
+			remoteInfo = "RNCryptor-objc";
+		};
+		D7B960D3C6BFED4A5E90C8E6BB4B9683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2A05175C94354EBE1FE79F7B70A579F;
+			remoteInfo = IAPHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02251F2AD1E14253B75CB67BD454EB0C /* Pods-RelaxTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RelaxTests-resources.sh"; sourceTree = "<group>"; };
+		026138DA73FA96964ACCB816F3505EE7 /* Pods-RelaxTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RelaxTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0402F4B4171237B552FF717738BDE65A /* Pods-Relax-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Relax-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BE7B50DAF9A870095B5D3293DBC20B5 /* XCDYouTubeVideoWebpage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoWebpage.h; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.h; sourceTree = "<group>"; };
+		0C31EB867E446C2580088706EEA615A3 /* Pods-Relax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Relax.debug.xcconfig"; sourceTree = "<group>"; };
+		0CA62A7048A353788E5E19426C4E59ED /* Pods-RelaxUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RelaxUITests-dummy.m"; sourceTree = "<group>"; };
+		0E7D3CB4041A5E94468FA7507E7C3235 /* RNEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNEncryptor.m; path = RNCryptor/RNEncryptor.m; sourceTree = "<group>"; };
+		1014BC6272A00AD50C17CA1B24EBDE60 /* libPods-RelaxUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RelaxUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1549200663107B679B00FE942A800ED5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		16C560B493C3C744534896510707C404 /* XCDYouTubePlayerScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubePlayerScript.m; path = XCDYouTubeKit/XCDYouTubePlayerScript.m; sourceTree = "<group>"; };
+		1ABB7E81F09811DEBFB4A1DA8EFBB8E0 /* XCDYouTubeLogger+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeLogger+Private.h"; path = "XCDYouTubeKit/XCDYouTubeLogger+Private.h"; sourceTree = "<group>"; };
+		1B35D00DF47567783F7930816D779AFE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		1D7FECC5BDBAF8B58046C5C291A778AF /* CircleProgressBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CircleProgressBar.h; path = CircleProgressBarDemo/CircleProgressBar/CircleProgressBar.h; sourceTree = "<group>"; };
+		27F8D18F3084610B82E4D1E3B0AF4023 /* IAPHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IAPHelper-dummy.m"; sourceTree = "<group>"; };
+		29FC1C4FC44E959932F7A35515699F1A /* XCDYouTubeClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeClient.m; path = XCDYouTubeKit/XCDYouTubeClient.m; sourceTree = "<group>"; };
+		30BEC402F688B3E268429972FD187D44 /* XCDYouTubeVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideo.m; path = XCDYouTubeKit/XCDYouTubeVideo.m; sourceTree = "<group>"; };
+		33CD7099BF7C030EEFE9855CC2951F45 /* RNCryptorEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptorEngine.m; path = RNCryptor/RNCryptorEngine.m; sourceTree = "<group>"; };
+		34BD627E6BA88687AD8F86FD521FF4F8 /* Pods-RelaxUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RelaxUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3547153739690E07E6BD65F1875F7CFD /* libCircleProgressBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCircleProgressBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		375B5BB918F18C1AAF1D04DB88241942 /* Pods-Relax-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Relax-dummy.m"; sourceTree = "<group>"; };
+		3C7102EAED6D7857443930F50FB6855D /* libPods-RelaxTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RelaxTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CACB69465DD8CCAA255CE3A18C3CFD /* libRNCryptor-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRNCryptor-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E7E75A6D8980E1DF4251F00A9C3DF1 /* Pods-RelaxUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RelaxUITests-frameworks.sh"; sourceTree = "<group>"; };
+		474298AF5D2AC7F62DFCAA83A6084FEB /* libPods-Relax.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Relax.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48304355322E3D998BD0C3806D0DBB44 /* XCDYouTubeLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeLogger.h; path = XCDYouTubeKit/XCDYouTubeLogger.h; sourceTree = "<group>"; };
+		4A39CFBB01272DCC712FEDB8DFD29EC6 /* RNCryptor-objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-objc-dummy.m"; sourceTree = "<group>"; };
+		4CE67AF74B60BD3FA52E3F284CDCA51A /* RNDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNDecryptor.h; path = RNCryptor/RNDecryptor.h; sourceTree = "<group>"; };
+		50578F5978D503574376E892170A68C9 /* RNCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = RNCryptor/RNCryptor.m; sourceTree = "<group>"; };
+		534C50F0F1D511D053CDEF5B2772B821 /* NSString+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Base64.h"; path = "IAPHelper/NSString+Base64.h"; sourceTree = "<group>"; };
+		55AA8BD6F8E215EECEDB5BC7C3593A30 /* Pods-RelaxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RelaxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		55BD15BAF8F2FEFB3507FF64AD5B801D /* NSString+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Base64.m"; path = "IAPHelper/NSString+Base64.m"; sourceTree = "<group>"; };
+		5A8AE96311F063618D377F88468AA067 /* XCDYouTubePlayerScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubePlayerScript.h; path = XCDYouTubeKit/XCDYouTubePlayerScript.h; sourceTree = "<group>"; };
+		636FFAF2A51041420DE655EA3F677A6A /* XCDYouTubeVideoPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoPlayerViewController.h; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.h; sourceTree = "<group>"; };
+		63FEE7E73F5BD4241A57D2D11E0318FE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		650E582037777A0085712D9952F068B6 /* XCDYouTubeVideoOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoOperation.m; path = XCDYouTubeKit/XCDYouTubeVideoOperation.m; sourceTree = "<group>"; };
+		6785577FD2CC9CD59E24170B25F6E88F /* Pods-Relax-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Relax-resources.sh"; sourceTree = "<group>"; };
+		67D0262EDCE3E04CAF34F96EAC26F72A /* Pods-Relax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Relax.release.xcconfig"; sourceTree = "<group>"; };
+		6A34655897BC48BB2251550DB39EF960 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFHFKeychainUtils.h; path = IAPHelper/SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		6B41FD47A5FCE11E0F0FDD23B51C0AEB /* XCDYouTubeClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeClient.h; path = XCDYouTubeKit/XCDYouTubeClient.h; sourceTree = "<group>"; };
+		6CA41D249FC1F756645EC7280DB16E09 /* Pods-RelaxTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RelaxTests-dummy.m"; sourceTree = "<group>"; };
+		723A0F8B315B018EF2B04A4F99858E64 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SFHFKeychainUtils.m; path = IAPHelper/SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		7390560F8BE1A3462CADBD6050A3E90B /* XCDYouTubeError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeError.h; path = XCDYouTubeKit/XCDYouTubeError.h; sourceTree = "<group>"; };
+		74B5EA7C07ABD4BE8A70F8AAC884C6DF /* CircleProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		7B5F49FF3E59AFEEF67066D8D52FC045 /* RNDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNDecryptor.m; path = RNCryptor/RNDecryptor.m; sourceTree = "<group>"; };
+		7C35E1BA5505A585438DD813EA52A719 /* CircleProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgressBar.xcconfig; sourceTree = "<group>"; };
+		8119767EA78203FDF8E74363A9618F3D /* RNCryptor-objc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RNCryptor-objc.xcconfig"; sourceTree = "<group>"; };
+		81B302B39F68B93B3E55EF459B71EAAB /* XCDYouTubeVideoWebpage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoWebpage.m; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.m; sourceTree = "<group>"; };
+		81D9BFDAFF785D8E384346826AD67201 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		855EE1F2FC01A47D8969039B1FA31AD6 /* Pods-RelaxUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RelaxUITests-resources.sh"; sourceTree = "<group>"; };
+		8ABFF32E752A14FEF44DA649EB78D1AC /* Pods-RelaxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RelaxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B5ACD41397ED50B3279646CDEA624D3 /* Pods-RelaxUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RelaxUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C8624C59B278C33543EAABA15A37CF /* Pods-RelaxTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RelaxTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		96BCD6B2FAE3B6EF32AF1E4C5B9D7E3A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		96D9B688B54F032FEFBE966BCDA921EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		97878858B2BD102BDE187DD3F94C2754 /* Pods-Relax-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Relax-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1C047D8F53BAE54870C65CCF0AB1E30 /* XCDYouTubeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeKit-prefix.pch"; sourceTree = "<group>"; };
+		A358DD488BCB1D12E124E7662CF0AEF3 /* libIAPHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIAPHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FDCEF079326D1A7E153661933E89C8 /* XCDYouTubeLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeLogger.m; path = XCDYouTubeKit/XCDYouTubeLogger.m; sourceTree = "<group>"; };
+		A863A5AB1D57023D4C06A8384AB5AD46 /* XCDYouTubeVideoOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoOperation.h; path = XCDYouTubeKit/XCDYouTubeVideoOperation.h; sourceTree = "<group>"; };
+		A86DBE5692924FF8E1695571AA816CC5 /* XCDYouTubeOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeOperation.h; path = XCDYouTubeKit/XCDYouTubeOperation.h; sourceTree = "<group>"; };
+		A92185484E18E7F8451C2B678D48AFEB /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = RNCryptor/RNCryptor.h; sourceTree = "<group>"; };
+		ABBE357EBD423AF3554965C76AC4349F /* IAPShare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IAPShare.m; path = IAPHelper/IAPShare.m; sourceTree = "<group>"; };
+		B290F073F6D931054F4996C9E76358AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B42588948EFE4FD60112F0183307A0B3 /* XCDYouTubeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCDYouTubeKit-dummy.m"; sourceTree = "<group>"; };
+		BF0B59F4EA0B5F28A03805FE1CFB64AE /* IAPHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IAPHelper.xcconfig; sourceTree = "<group>"; };
+		C63A4C74330A16387C697794D2B0F762 /* CircleProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleProgressBar-dummy.m"; sourceTree = "<group>"; };
+		C8DB01F3FB4EAD74DE7206B79836D7C4 /* Pods-RelaxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RelaxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE7F53DA1544ECFC6FDD91CB912F198F /* IAPHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IAPHelper.m; path = IAPHelper/IAPHelper.m; sourceTree = "<group>"; };
+		D1490F4D5E3556FC7351C62623A86B6B /* libXCDYouTubeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXCDYouTubeKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1641B3202A861661A278AB3D3A34E3E /* Pods-RelaxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RelaxTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3521EF9AEC3076901E707DD0F67B557 /* XCDYouTubeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCDYouTubeKit.xcconfig; sourceTree = "<group>"; };
+		D73FAEF37E3D3F333611543D01E1AB91 /* RNEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNEncryptor.h; path = RNCryptor/RNEncryptor.h; sourceTree = "<group>"; };
+		D8DFA4501E338BB4496418DD3A03D098 /* XCDYouTubeVideoPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoPlayerViewController.m; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.m; sourceTree = "<group>"; };
+		DEC349E9B11E19B22E9F4CB935D671CB /* XCDYouTubeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeKit.h; path = XCDYouTubeKit/XCDYouTubeKit.h; sourceTree = "<group>"; };
+		DF207155A4760889A731A46AA069E4F2 /* IAPHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IAPHelper-prefix.pch"; sourceTree = "<group>"; };
+		E0920FE13F1D65248D8FD77A0A4DE58A /* XCDYouTubeVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideo.h; path = XCDYouTubeKit/XCDYouTubeVideo.h; sourceTree = "<group>"; };
+		E5A2C6E92DA80B2F9430A0D8C2FE4055 /* IAPHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAPHelper.h; path = IAPHelper/IAPHelper.h; sourceTree = "<group>"; };
+		E65F37222F8F7B8A5DF9D538A0C0C1D3 /* RNCryptor+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RNCryptor+Private.h"; path = "RNCryptor/RNCryptor+Private.h"; sourceTree = "<group>"; };
+		EDD2011F35F810F550445FE29FF79724 /* CircleProgressBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CircleProgressBar.m; path = CircleProgressBarDemo/CircleProgressBar/CircleProgressBar.m; sourceTree = "<group>"; };
+		EE085B91E3B9C12002178B899F8F25F0 /* Pods-RelaxTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RelaxTests-frameworks.sh"; sourceTree = "<group>"; };
+		EE380070CFC1B2C0A3C5BF74BA1A1C55 /* RNCryptor-objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-objc-prefix.pch"; sourceTree = "<group>"; };
+		EF1D6C74155FD92F065BB080EEC171B1 /* Pods-Relax-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Relax-frameworks.sh"; sourceTree = "<group>"; };
+		F5B2AFB5257C2B8140329745DE9EF98D /* IAPShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAPShare.h; path = IAPHelper/IAPShare.h; sourceTree = "<group>"; };
+		F9D473A1268E44605938D13D83B4E7D8 /* RNCryptorEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptorEngine.h; path = RNCryptor/RNCryptorEngine.h; sourceTree = "<group>"; };
+		FF90FCCB4863711C0E2A7D61BCBE6ACA /* XCDYouTubeVideo+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeVideo+Private.h"; path = "XCDYouTubeKit/XCDYouTubeVideo+Private.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45A05916D1F13424DA6BDE40C063111B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE81ED26970B1357D54D3E75390E9B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556073E333FCCC7278DE01212A54E813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78512805731ADD704A93DE3FB274D0A9 /* Foundation.framework in Frameworks */,
+				4FDC63FA6DDB6A28859AEFDF892B5A44 /* JavaScriptCore.framework in Frameworks */,
+				0E742B018B3E540AF8BB37932AEAACFD /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63056A1BBD723FA3F8CD4E49E8E870EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952B8D30F919095C27616CC38B969624 /* Foundation.framework in Frameworks */,
+				D1AB1701483CB29A3FB462228A562AF4 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F47BA27BC61D6C244A878A5DD88DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38D88D49C8EBC2E9E943CC034E52756 /* Foundation.framework in Frameworks */,
+				F2C92A4205C32191B27B9868FEE208E7 /* QuartzCore.framework in Frameworks */,
+				790124BEE41A4EA801C9B105D9BE61FD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFDC879F1C6865623D2AE497504B93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E0B3AC704B932D31023DE0EC14CE48 /* Foundation.framework in Frameworks */,
+				BA2D13F708D0279DA304A61F0C1BA031 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CF10D11AA44FDBAE559240DD727438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C5ED91AB08F82D5F35430980B075A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C934EBAB5C282E5EDF15C1C4583A5FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8B643565385E0F6242F5A0F635AC6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DDEAB40371E2798D8F906AEBD2082D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8119767EA78203FDF8E74363A9618F3D /* RNCryptor-objc.xcconfig */,
+				4A39CFBB01272DCC712FEDB8DFD29EC6 /* RNCryptor-objc-dummy.m */,
+				EE380070CFC1B2C0A3C5BF74BA1A1C55 /* RNCryptor-objc-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RNCryptor-objc";
+			sourceTree = "<group>";
+		};
+		1F2AF21584ECF6FD86ECC28AF40F2303 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1549200663107B679B00FE942A800ED5 /* Foundation.framework */,
+				1B35D00DF47567783F7930816D779AFE /* JavaScriptCore.framework */,
+				81D9BFDAFF785D8E384346826AD67201 /* MediaPlayer.framework */,
+				96D9B688B54F032FEFBE966BCDA921EB /* QuartzCore.framework */,
+				63FEE7E73F5BD4241A57D2D11E0318FE /* Security.framework */,
+				96BCD6B2FAE3B6EF32AF1E4C5B9D7E3A /* StoreKit.framework */,
+				B290F073F6D931054F4996C9E76358AF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2F18872A412030248A53CF067AEB83F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3547153739690E07E6BD65F1875F7CFD /* libCircleProgressBar.a */,
+				A358DD488BCB1D12E124E7662CF0AEF3 /* libIAPHelper.a */,
+				474298AF5D2AC7F62DFCAA83A6084FEB /* libPods-Relax.a */,
+				3C7102EAED6D7857443930F50FB6855D /* libPods-RelaxTests.a */,
+				1014BC6272A00AD50C17CA1B24EBDE60 /* libPods-RelaxUITests.a */,
+				42CACB69465DD8CCAA255CE3A18C3CFD /* libRNCryptor-objc.a */,
+				D1490F4D5E3556FC7351C62623A86B6B /* libXCDYouTubeKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42DF42A48ADD76367E7AB76A9BB21FB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3A60EA91ED415BF41A47CDAF8CC165D /* CircleProgressBar */,
+				4A8AC7BD41260730C28FBD0C9E49E0E1 /* IAPHelper */,
+				64260E404D0F8E770925B61A59F4CCAB /* RNCryptor-objc */,
+				8791F425419653CBC6929D2C1D508787 /* XCDYouTubeKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4699527AF212F5C3BBE13A2D855BD9A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D26E79AFA2A8A3CD5E6B23FE3FC341AE /* Pods-Relax */,
+				6F6EC15DC4D4237FCBFCFFC346E8BA17 /* Pods-RelaxTests */,
+				6AF180FD2CE754CEE395B0663DEAF538 /* Pods-RelaxUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4A8AC7BD41260730C28FBD0C9E49E0E1 /* IAPHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E5A2C6E92DA80B2F9430A0D8C2FE4055 /* IAPHelper.h */,
+				CE7F53DA1544ECFC6FDD91CB912F198F /* IAPHelper.m */,
+				F5B2AFB5257C2B8140329745DE9EF98D /* IAPShare.h */,
+				ABBE357EBD423AF3554965C76AC4349F /* IAPShare.m */,
+				534C50F0F1D511D053CDEF5B2772B821 /* NSString+Base64.h */,
+				55BD15BAF8F2FEFB3507FF64AD5B801D /* NSString+Base64.m */,
+				6A34655897BC48BB2251550DB39EF960 /* SFHFKeychainUtils.h */,
+				723A0F8B315B018EF2B04A4F99858E64 /* SFHFKeychainUtils.m */,
+				6FBADB0364556ADC35429CDF1E3B3227 /* Support Files */,
+			);
+			path = IAPHelper;
+			sourceTree = "<group>";
+		};
+		533417A2F3399811CACA9EA50951618E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3521EF9AEC3076901E707DD0F67B557 /* XCDYouTubeKit.xcconfig */,
+				B42588948EFE4FD60112F0183307A0B3 /* XCDYouTubeKit-dummy.m */,
+				A1C047D8F53BAE54870C65CCF0AB1E30 /* XCDYouTubeKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XCDYouTubeKit";
+			sourceTree = "<group>";
+		};
+		64260E404D0F8E770925B61A59F4CCAB /* RNCryptor-objc */ = {
+			isa = PBXGroup;
+			children = (
+				A92185484E18E7F8451C2B678D48AFEB /* RNCryptor.h */,
+				50578F5978D503574376E892170A68C9 /* RNCryptor.m */,
+				E65F37222F8F7B8A5DF9D538A0C0C1D3 /* RNCryptor+Private.h */,
+				F9D473A1268E44605938D13D83B4E7D8 /* RNCryptorEngine.h */,
+				33CD7099BF7C030EEFE9855CC2951F45 /* RNCryptorEngine.m */,
+				4CE67AF74B60BD3FA52E3F284CDCA51A /* RNDecryptor.h */,
+				7B5F49FF3E59AFEEF67066D8D52FC045 /* RNDecryptor.m */,
+				D73FAEF37E3D3F333611543D01E1AB91 /* RNEncryptor.h */,
+				0E7D3CB4041A5E94468FA7507E7C3235 /* RNEncryptor.m */,
+				0DDEAB40371E2798D8F906AEBD2082D6 /* Support Files */,
+			);
+			path = "RNCryptor-objc";
+			sourceTree = "<group>";
+		};
+		6AF180FD2CE754CEE395B0663DEAF538 /* Pods-RelaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34BD627E6BA88687AD8F86FD521FF4F8 /* Pods-RelaxUITests-acknowledgements.markdown */,
+				8B5ACD41397ED50B3279646CDEA624D3 /* Pods-RelaxUITests-acknowledgements.plist */,
+				0CA62A7048A353788E5E19426C4E59ED /* Pods-RelaxUITests-dummy.m */,
+				43E7E75A6D8980E1DF4251F00A9C3DF1 /* Pods-RelaxUITests-frameworks.sh */,
+				855EE1F2FC01A47D8969039B1FA31AD6 /* Pods-RelaxUITests-resources.sh */,
+				C8DB01F3FB4EAD74DE7206B79836D7C4 /* Pods-RelaxUITests.debug.xcconfig */,
+				55AA8BD6F8E215EECEDB5BC7C3593A30 /* Pods-RelaxUITests.release.xcconfig */,
+			);
+			name = "Pods-RelaxUITests";
+			path = "Target Support Files/Pods-RelaxUITests";
+			sourceTree = "<group>";
+		};
+		6F6EC15DC4D4237FCBFCFFC346E8BA17 /* Pods-RelaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				026138DA73FA96964ACCB816F3505EE7 /* Pods-RelaxTests-acknowledgements.markdown */,
+				94C8624C59B278C33543EAABA15A37CF /* Pods-RelaxTests-acknowledgements.plist */,
+				6CA41D249FC1F756645EC7280DB16E09 /* Pods-RelaxTests-dummy.m */,
+				EE085B91E3B9C12002178B899F8F25F0 /* Pods-RelaxTests-frameworks.sh */,
+				02251F2AD1E14253B75CB67BD454EB0C /* Pods-RelaxTests-resources.sh */,
+				8ABFF32E752A14FEF44DA649EB78D1AC /* Pods-RelaxTests.debug.xcconfig */,
+				D1641B3202A861661A278AB3D3A34E3E /* Pods-RelaxTests.release.xcconfig */,
+			);
+			name = "Pods-RelaxTests";
+			path = "Target Support Files/Pods-RelaxTests";
+			sourceTree = "<group>";
+		};
+		6FBADB0364556ADC35429CDF1E3B3227 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF0B59F4EA0B5F28A03805FE1CFB64AE /* IAPHelper.xcconfig */,
+				27F8D18F3084610B82E4D1E3B0AF4023 /* IAPHelper-dummy.m */,
+				DF207155A4760889A731A46AA069E4F2 /* IAPHelper-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IAPHelper";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */,
+				42DF42A48ADD76367E7AB76A9BB21FB2 /* Pods */,
+				2F18872A412030248A53CF067AEB83F5 /* Products */,
+				4699527AF212F5C3BBE13A2D855BD9A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8791F425419653CBC6929D2C1D508787 /* XCDYouTubeKit */ = {
+			isa = PBXGroup;
+			children = (
+				6B41FD47A5FCE11E0F0FDD23B51C0AEB /* XCDYouTubeClient.h */,
+				29FC1C4FC44E959932F7A35515699F1A /* XCDYouTubeClient.m */,
+				7390560F8BE1A3462CADBD6050A3E90B /* XCDYouTubeError.h */,
+				DEC349E9B11E19B22E9F4CB935D671CB /* XCDYouTubeKit.h */,
+				48304355322E3D998BD0C3806D0DBB44 /* XCDYouTubeLogger.h */,
+				A3FDCEF079326D1A7E153661933E89C8 /* XCDYouTubeLogger.m */,
+				1ABB7E81F09811DEBFB4A1DA8EFBB8E0 /* XCDYouTubeLogger+Private.h */,
+				A86DBE5692924FF8E1695571AA816CC5 /* XCDYouTubeOperation.h */,
+				5A8AE96311F063618D377F88468AA067 /* XCDYouTubePlayerScript.h */,
+				16C560B493C3C744534896510707C404 /* XCDYouTubePlayerScript.m */,
+				E0920FE13F1D65248D8FD77A0A4DE58A /* XCDYouTubeVideo.h */,
+				30BEC402F688B3E268429972FD187D44 /* XCDYouTubeVideo.m */,
+				FF90FCCB4863711C0E2A7D61BCBE6ACA /* XCDYouTubeVideo+Private.h */,
+				A863A5AB1D57023D4C06A8384AB5AD46 /* XCDYouTubeVideoOperation.h */,
+				650E582037777A0085712D9952F068B6 /* XCDYouTubeVideoOperation.m */,
+				636FFAF2A51041420DE655EA3F677A6A /* XCDYouTubeVideoPlayerViewController.h */,
+				D8DFA4501E338BB4496418DD3A03D098 /* XCDYouTubeVideoPlayerViewController.m */,
+				0BE7B50DAF9A870095B5D3293DBC20B5 /* XCDYouTubeVideoWebpage.h */,
+				81B302B39F68B93B3E55EF459B71EAAB /* XCDYouTubeVideoWebpage.m */,
+				533417A2F3399811CACA9EA50951618E /* Support Files */,
+			);
+			path = XCDYouTubeKit;
+			sourceTree = "<group>";
+		};
+		D26E79AFA2A8A3CD5E6B23FE3FC341AE /* Pods-Relax */ = {
+			isa = PBXGroup;
+			children = (
+				0402F4B4171237B552FF717738BDE65A /* Pods-Relax-acknowledgements.markdown */,
+				97878858B2BD102BDE187DD3F94C2754 /* Pods-Relax-acknowledgements.plist */,
+				375B5BB918F18C1AAF1D04DB88241942 /* Pods-Relax-dummy.m */,
+				EF1D6C74155FD92F065BB080EEC171B1 /* Pods-Relax-frameworks.sh */,
+				6785577FD2CC9CD59E24170B25F6E88F /* Pods-Relax-resources.sh */,
+				0C31EB867E446C2580088706EEA615A3 /* Pods-Relax.debug.xcconfig */,
+				67D0262EDCE3E04CAF34F96EAC26F72A /* Pods-Relax.release.xcconfig */,
+			);
+			name = "Pods-Relax";
+			path = "Target Support Files/Pods-Relax";
+			sourceTree = "<group>";
+		};
+		E3A60EA91ED415BF41A47CDAF8CC165D /* CircleProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				1D7FECC5BDBAF8B58046C5C291A778AF /* CircleProgressBar.h */,
+				EDD2011F35F810F550445FE29FF79724 /* CircleProgressBar.m */,
+				F3EE029321555B3FA134F6AF0608EB01 /* Support Files */,
+			);
+			path = CircleProgressBar;
+			sourceTree = "<group>";
+		};
+		F3EE029321555B3FA134F6AF0608EB01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C35E1BA5505A585438DD813EA52A719 /* CircleProgressBar.xcconfig */,
+				C63A4C74330A16387C697794D2B0F762 /* CircleProgressBar-dummy.m */,
+				74B5EA7C07ABD4BE8A70F8AAC884C6DF /* CircleProgressBar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircleProgressBar";
+			sourceTree = "<group>";
+		};
+		F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F2AF21584ECF6FD86ECC28AF40F2303 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33033B27F8E6885C43568009A7487720 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F678D6A1AF91D35D6850E313F678479 /* IAPHelper.h in Headers */,
+				48B4FAE1BA2311E58C92035B266DAF91 /* IAPShare.h in Headers */,
+				203B4B8BA26B9CA6B544D0A256316A8D /* NSString+Base64.h in Headers */,
+				446A22C036ADE89FE673398C75976EBF /* SFHFKeychainUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5946CEC44DE8207E9AF45AF9DA116EDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758137D6498CE43DCA2D27255AC551F8 /* XCDYouTubeClient.h in Headers */,
+				925C56DD455F6E41C6D7013F50B2D928 /* XCDYouTubeError.h in Headers */,
+				B876F5192E4DB20E9B70ED08AACEA647 /* XCDYouTubeKit.h in Headers */,
+				6EC10ABD2C7395444FDC02D972C30D46 /* XCDYouTubeLogger+Private.h in Headers */,
+				A1AFC95F7E0E3BF9A76B9297AD233E27 /* XCDYouTubeLogger.h in Headers */,
+				49D068CBD6C9DFCEFD90AD9B81653BA4 /* XCDYouTubeOperation.h in Headers */,
+				ED43DC0171F1B483726F07DB43CDD587 /* XCDYouTubePlayerScript.h in Headers */,
+				F49A39354D923EFF68013A21DA636219 /* XCDYouTubeVideo+Private.h in Headers */,
+				F3EC96D947C88D58E7959CF574FC63B7 /* XCDYouTubeVideo.h in Headers */,
+				4FCD72A9C14E5F202B8109B760DE9F24 /* XCDYouTubeVideoOperation.h in Headers */,
+				48AF1B9F9D979947ACE853B127577D1B /* XCDYouTubeVideoPlayerViewController.h in Headers */,
+				AC49384CF2F05DE229481DD13891B3DA /* XCDYouTubeVideoWebpage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA1C1A6CDAF34D3B57D63415A175E81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67656A0D6A0626E253A9A0FF85AA392B /* CircleProgressBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EDE7607B8112B1DFCA5B2DBB7F19F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B82C2415F41407588823628CFA8615 /* RNCryptor+Private.h in Headers */,
+				D5D26F8954348527D4D3FEEA36DE6451 /* RNCryptor.h in Headers */,
+				90AD4CF70CAB59991B371F0FB34FAFE2 /* RNCryptorEngine.h in Headers */,
+				02B87321CBC43D066193BA4EBB146F0E /* RNDecryptor.h in Headers */,
+				5061CF19CBD4134036A4885849AA9232 /* RNEncryptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44FEA81D4D0B27AA4F379C79BB417EFC /* Pods-Relax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9E6945689AC0B9E233A00832F90E86 /* Build configuration list for PBXNativeTarget "Pods-Relax" */;
+			buildPhases = (
+				50B4882D936494ED1B0D0EFCD2B9F504 /* Sources */,
+				B9CF10D11AA44FDBAE559240DD727438 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CB82244853D145E84072F1F432AEE34 /* PBXTargetDependency */,
+				89E2B72B74A8B4EBACF98E545B12C866 /* PBXTargetDependency */,
+				5691E20E46028EBF684E59CBD26E8213 /* PBXTargetDependency */,
+				E0D84AF13D6A9023F538FF51FCAAFB8B /* PBXTargetDependency */,
+			);
+			name = "Pods-Relax";
+			productName = "Pods-Relax";
+			productReference = 474298AF5D2AC7F62DFCAA83A6084FEB /* libPods-Relax.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		665CD8AA91B64AFF06560C1685EB760E /* Pods-RelaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF1FEBC83A16CD79CD984B8C7F3552C /* Build configuration list for PBXNativeTarget "Pods-RelaxTests" */;
+			buildPhases = (
+				D37D57B74219CCE429642808E2E4AA89 /* Sources */,
+				45A05916D1F13424DA6BDE40C063111B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RelaxTests";
+			productName = "Pods-RelaxTests";
+			productReference = 3C7102EAED6D7857443930F50FB6855D /* libPods-RelaxTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		69BE96AF79E4E2B74694F2B2552DF1D5 /* RNCryptor-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F55F5A00D9521C329695174A4C9470C /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */;
+			buildPhases = (
+				E0DF55BEF03A1EF5E66671DED25BCA03 /* Sources */,
+				63056A1BBD723FA3F8CD4E49E8E870EA /* Frameworks */,
+				A3EDE7607B8112B1DFCA5B2DBB7F19F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RNCryptor-objc";
+			productName = "RNCryptor-objc";
+			productReference = 42CACB69465DD8CCAA255CE3A18C3CFD /* libRNCryptor-objc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		893941B71A4E6451FF3F512EC17ECAF5 /* CircleProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2225ADE3C75E24F54DDDEF14F93841C /* Build configuration list for PBXNativeTarget "CircleProgressBar" */;
+			buildPhases = (
+				43AF5E518E2E2506221FECC878A8C213 /* Sources */,
+				64F47BA27BC61D6C244A878A5DD88DFD /* Frameworks */,
+				7BA1C1A6CDAF34D3B57D63415A175E81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleProgressBar;
+			productName = CircleProgressBar;
+			productReference = 3547153739690E07E6BD65F1875F7CFD /* libCircleProgressBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E3A5E63B713DCB0FFAD1D256426EE5CA /* XCDYouTubeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F088C290DEC0FEB4C0007F39ACF479EF /* Build configuration list for PBXNativeTarget "XCDYouTubeKit" */;
+			buildPhases = (
+				A7CD61DCE950B7857D76EFF99F1C9FD7 /* Sources */,
+				556073E333FCCC7278DE01212A54E813 /* Frameworks */,
+				5946CEC44DE8207E9AF45AF9DA116EDF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCDYouTubeKit;
+			productName = XCDYouTubeKit;
+			productReference = D1490F4D5E3556FC7351C62623A86B6B /* libXCDYouTubeKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EEDCFA59486B524BB1F14C05934148DE /* Pods-RelaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DBB32C0A7AE626E0BC5D1315F281B5 /* Build configuration list for PBXNativeTarget "Pods-RelaxUITests" */;
+			buildPhases = (
+				875338EB493C58F64431E9C5F454E7CF /* Sources */,
+				C934EBAB5C282E5EDF15C1C4583A5FE3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RelaxUITests";
+			productName = "Pods-RelaxUITests";
+			productReference = 1014BC6272A00AD50C17CA1B24EBDE60 /* libPods-RelaxUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F2A05175C94354EBE1FE79F7B70A579F /* IAPHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D27E6C79D908B46214EE120791A1D9 /* Build configuration list for PBXNativeTarget "IAPHelper" */;
+			buildPhases = (
+				C8CF5C418541BFD1F33E7132B97224EC /* Sources */,
+				9EFDC879F1C6865623D2AE497504B93B /* Frameworks */,
+				33033B27F8E6885C43568009A7487720 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IAPHelper;
+			productName = IAPHelper;
+			productReference = A358DD488BCB1D12E124E7662CF0AEF3 /* libIAPHelper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2F18872A412030248A53CF067AEB83F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893941B71A4E6451FF3F512EC17ECAF5 /* CircleProgressBar */,
+				F2A05175C94354EBE1FE79F7B70A579F /* IAPHelper */,
+				44FEA81D4D0B27AA4F379C79BB417EFC /* Pods-Relax */,
+				665CD8AA91B64AFF06560C1685EB760E /* Pods-RelaxTests */,
+				EEDCFA59486B524BB1F14C05934148DE /* Pods-RelaxUITests */,
+				69BE96AF79E4E2B74694F2B2552DF1D5 /* RNCryptor-objc */,
+				E3A5E63B713DCB0FFAD1D256426EE5CA /* XCDYouTubeKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43AF5E518E2E2506221FECC878A8C213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5FB174022948DE2319706E9260C58F /* CircleProgressBar-dummy.m in Sources */,
+				BA87F44253946414999E3EC1F7A0DA8A /* CircleProgressBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B4882D936494ED1B0D0EFCD2B9F504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB948E5A8FD68FCDDF11E29BA4ADB876 /* Pods-Relax-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875338EB493C58F64431E9C5F454E7CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D843A9DD7E4A44B6EE636D76D3BE56 /* Pods-RelaxUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CD61DCE950B7857D76EFF99F1C9FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC5538028983BB2182CF00F52A845AC /* XCDYouTubeClient.m in Sources */,
+				F76CD7A34F76CC5BC7FAFB6E49A6A036 /* XCDYouTubeKit-dummy.m in Sources */,
+				50B8A4400EB7A1977847A0F1A38B9D9C /* XCDYouTubeLogger.m in Sources */,
+				4B125A95B05C486C3F2A928C32AF5E73 /* XCDYouTubePlayerScript.m in Sources */,
+				AFFFA0BA80A1E682356C87C1256F914F /* XCDYouTubeVideo.m in Sources */,
+				CCD6D96D09DC5B36515AFE1FA25ADAFA /* XCDYouTubeVideoOperation.m in Sources */,
+				CE1D5563F7F969F1603669D54C59AC09 /* XCDYouTubeVideoPlayerViewController.m in Sources */,
+				7C5A0758D77EBE6D11392B1DE8C663C9 /* XCDYouTubeVideoWebpage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CF5C418541BFD1F33E7132B97224EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD1C0608E2DF46C8A7A5C86F088CD97 /* IAPHelper-dummy.m in Sources */,
+				E8D3D8FABC2867EC4D7018C1D43323BA /* IAPHelper.m in Sources */,
+				8961FDD5C87979E1D6C066A7D5553CA4 /* IAPShare.m in Sources */,
+				24C8BFF1500B0CB31B4732B0DFE777DC /* NSString+Base64.m in Sources */,
+				20250CF7686D8907BD00FC41206BE285 /* SFHFKeychainUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37D57B74219CCE429642808E2E4AA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A2124FE499C1860BE6AD2E1C08B3AF /* Pods-RelaxTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DF55BEF03A1EF5E66671DED25BCA03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5DF049AC71A2BE6CA63BC85E6C8B32 /* RNCryptor-objc-dummy.m in Sources */,
+				50875043B52BECA06C76CB37C37F0D9C /* RNCryptor.m in Sources */,
+				A30CC8759A8EBCFEC572862A53563218 /* RNCryptorEngine.m in Sources */,
+				B4090D9CF37EAD328C960643FEBE2B2C /* RNDecryptor.m in Sources */,
+				925FCC8281723C2B1661986EDB6FD16F /* RNEncryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CB82244853D145E84072F1F432AEE34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgressBar;
+			target = 893941B71A4E6451FF3F512EC17ECAF5 /* CircleProgressBar */;
+			targetProxy = 5407D3212ACD50E04E977E87B7CA02C8 /* PBXContainerItemProxy */;
+		};
+		5691E20E46028EBF684E59CBD26E8213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RNCryptor-objc";
+			target = 69BE96AF79E4E2B74694F2B2552DF1D5 /* RNCryptor-objc */;
+			targetProxy = 741DE40019C0BD8CBCBBECE4D5E0DB89 /* PBXContainerItemProxy */;
+		};
+		89E2B72B74A8B4EBACF98E545B12C866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IAPHelper;
+			target = F2A05175C94354EBE1FE79F7B70A579F /* IAPHelper */;
+			targetProxy = D7B960D3C6BFED4A5E90C8E6BB4B9683 /* PBXContainerItemProxy */;
+		};
+		E0D84AF13D6A9023F538FF51FCAAFB8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCDYouTubeKit;
+			target = E3A5E63B713DCB0FFAD1D256426EE5CA /* XCDYouTubeKit */;
+			targetProxy = 05E4A01D4E919664BA936BC4A712672F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A72A14D9F4D43E031C558BFCA49A1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3521EF9AEC3076901E707DD0F67B557 /* XCDYouTubeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XCDYouTubeKit/XCDYouTubeKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BD072C6165A75F3BEEC7AAEF2896CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1641B3202A861661A278AB3D3A34E3E /* Pods-RelaxTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13A95306D85E4471AB6BE665B012E60A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1EEDED3030A4B5E98C98058EF369D80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DB01F3FB4EAD74DE7206B79836D7C4 /* Pods-RelaxUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F4E0BA2A6B72DF254110010355E4EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF0B59F4EA0B5F28A03805FE1CFB64AE /* IAPHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IAPHelper/IAPHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46E39CE8B74DE7D969A6088697F0D28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8119767EA78203FDF8E74363A9618F3D /* RNCryptor-objc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7481D9890B909AE3A789359C461A0596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ABFF32E752A14FEF44DA649EB78D1AC /* Pods-RelaxTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E8333274F4AB64785B04AB5B2A37231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		924D803BB8D51853455D85271CA42C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D0262EDCE3E04CAF34F96EAC26F72A /* Pods-Relax.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		929AE358191C40B2CE7D0567358C8FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C31EB867E446C2580088706EEA615A3 /* Pods-Relax.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FB8A065176C6044CAF06C8F5F6084D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3521EF9AEC3076901E707DD0F67B557 /* XCDYouTubeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XCDYouTubeKit/XCDYouTubeKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9187170AB8DA737B10D819C0793CD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8119767EA78203FDF8E74363A9618F3D /* RNCryptor-objc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C51C2A5158B0019C95EA0148A5577272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF0B59F4EA0B5F28A03805FE1CFB64AE /* IAPHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IAPHelper/IAPHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEC8DF026DEF240D3800B6C083044C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55AA8BD6F8E215EECEDB5BC7C3593A30 /* Pods-RelaxUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6F86D111C82F5396A1A4606AA098279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C35E1BA5505A585438DD813EA52A719 /* CircleProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressBar/CircleProgressBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE1A282AA1A4122AB759337A917BB71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C35E1BA5505A585438DD813EA52A719 /* CircleProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressBar/CircleProgressBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF1FEBC83A16CD79CD984B8C7F3552C /* Build configuration list for PBXNativeTarget "Pods-RelaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7481D9890B909AE3A789359C461A0596 /* Debug */,
+				0BD072C6165A75F3BEEC7AAEF2896CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A95306D85E4471AB6BE665B012E60A /* Debug */,
+				8E8333274F4AB64785B04AB5B2A37231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F55F5A00D9521C329695174A4C9470C /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E39CE8B74DE7D969A6088697F0D28E /* Debug */,
+				B9187170AB8DA737B10D819C0793CD5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2225ADE3C75E24F54DDDEF14F93841C /* Build configuration list for PBXNativeTarget "CircleProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F86D111C82F5396A1A4606AA098279 /* Debug */,
+				FE1A282AA1A4122AB759337A917BB71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DBB32C0A7AE626E0BC5D1315F281B5 /* Build configuration list for PBXNativeTarget "Pods-RelaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEDED3030A4B5E98C98058EF369D80F /* Debug */,
+				DEC8DF026DEF240D3800B6C083044C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9E6945689AC0B9E233A00832F90E86 /* Build configuration list for PBXNativeTarget "Pods-Relax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929AE358191C40B2CE7D0567358C8FF5 /* Debug */,
+				924D803BB8D51853455D85271CA42C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F088C290DEC0FEB4C0007F39ACF479EF /* Build configuration list for PBXNativeTarget "XCDYouTubeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A72A14D9F4D43E031C558BFCA49A1DF /* Debug */,
+				9FB8A065176C6044CAF06C8F5F6084D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D27E6C79D908B46214EE120791A1D9 /* Build configuration list for PBXNativeTarget "IAPHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51C2A5158B0019C95EA0148A5577272 /* Debug */,
+				1F4E0BA2A6B72DF254110010355E4EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

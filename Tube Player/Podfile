@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Relax' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Relax
+pod 'XCDYouTubeKit', :git => 'https://github.com/Sn0wCh1ld/XCDYouTubeKit.git'
+pod 'CircleProgressBar', '~> 0.32'
+pod 'IAPHelper', '~> 1.1'
+pod 'RNCryptor-objc', :git => 'https://github.com/RNCryptor/RNCryptor-objc.git'
+
+
+  target 'RelaxTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'RelaxUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
