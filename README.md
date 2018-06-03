@@ -29,7 +29,7 @@ Here are the commands and their functions:
 `ASMR`: Enables the ASMR filter, turning the app into an ASMR viewer, manager and downloader
 
 # Issues and Limitations
-- Can't log in to YouTube (because of the YouTube API)
+- Can't log in to YouTube accounts (because of the YouTube API)
 - Can't reorder playlists, or videos within the playlists
 - No shuffle function yet
 - No nested playlists (folder system)
