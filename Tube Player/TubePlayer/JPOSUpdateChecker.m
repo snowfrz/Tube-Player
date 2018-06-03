@@ -30,7 +30,7 @@
         if ([latestVersion compare:currentVersion options:NSNumericSearch] == NSOrderedDescending)
         {
             // latest version is higher than the current version
-            // don't change versionning convention from major.minor.increment
+            // don't change versioning convention from major.minor.increment
             
             UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Update Available" message:[[[[[[@"A new version of " stringByAppendingString:appName] stringByAppendingString:@" has been released. Please download version "] stringByAppendingString:latestVersion] stringByAppendingString:@" from "] stringByAppendingString:appHost] stringByAppendingString:@" and install it using Impactor"] preferredStyle:UIAlertControllerStyleAlert];
             

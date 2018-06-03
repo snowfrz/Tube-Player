@@ -46,14 +46,14 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+     [updateChecker checkForUpdatesAtURL:@"https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/TubePlayerAppInfo.plist" withAppName:@"Tube Player" andAppHost:@"GitHub" andHostURL:@"https://github.com/Sn0wCh1ld/Tube-Player"];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [self refreshData];
     [self noPirate];
-    
-    [updateChecker checkForUpdatesAtURL:@"https://raw.githubusercontent.com/Sn0wCh1ld/Various-Files/master/TubePlayerAppInfo.plist" withAppName:@"Tube Player" andAppHost:@"GitHub" andHostURL:@"https://github.com/Sn0wCh1ld/Tube-Player"];
 }
 
 - (void)noPirate
