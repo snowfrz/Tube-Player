@@ -1,4 +1,4 @@
-# Tube-Player
+# Tube Player
 A free and open-source iOS app that allows you to view, organize, download and share YouTube videos.
 
 Designed by [Justin Proulx](https://www.twitter.com/justinalexp)
