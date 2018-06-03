@@ -3,6 +3,11 @@ A free and open-source iOS app that allows you to view, organize, download and s
 
 Designed by [Justin Proulx](https://www.twitter.com/justinalexp)
 
+# Download
+[Version 1.0.1](https://github.com/Sn0wCh1ld/Tube-Player/releases/download/1.0.0/Tube.Player.1.0.0.ipa)
+
+Other versions are available [here](https://github.com/Sn0wCh1ld/Tube-Player/releases)
+
 # Features
 - Downloading in SD and HD
 - Ability to make playlists
