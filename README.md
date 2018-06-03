@@ -8,7 +8,7 @@ Designed by [Justin Proulx](https://www.twitter.com/justinalexp)
 
 Other versions are available [here](https://github.com/Sn0wCh1ld/Tube-Player/releases)
 
-# How to install
+# How to Install
 Most people should install Tube Player using Impactor.
 
 1. Download the .ipa for Tube Player using the link in the Download section
