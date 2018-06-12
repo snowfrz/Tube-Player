@@ -9,14 +9,14 @@ Designed by [Justin Proulx](https://www.twitter.com/justinalexp)
 Other versions are available [here](https://github.com/Sn0wCh1ld/Tube-Player/releases)
 
 # How to Install
-Most people should install Tube Player using Impactor.
+Most people should install Tube Player using Impactor. You're going to need a Mac or a Windows PC to do this.
 
-1. Download the .ipa for Tube Player using the link in the Download section
-2. Download [Impactor](http://www.cydiaimpactor.com)
-3. Open Impactor
-4. Attach your device
+1. On your computer, download the .ipa for Tube Player using the link in the Download section
+2. Also on your computer, download [Impactor](http://www.cydiaimpactor.com)
+3. Open Impactor on your computer
+4. Attach your iOS device (iPhone, iPad, iPod Touch) to your computer
 5. Trust the computer you are attached to, if asked
-6. When Impactor recognizes your device, drag Tube Player's .ipa file (the one you downloaded in step 1) onto its name
+6. When Impactor recognizes your iOS device, drag Tube Player's .ipa file (the one you downloaded in step 1) onto its name in Impactor
 7. You will be asked to put in your Apple ID username and password. Enter them.
 8. Wait for Tube Player to install.
 9. Enjoy!
