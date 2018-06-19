@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -48,7 +46,7 @@
                                             </constraints>
                                         </imageView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rOY-Pj-Tj5">
-                                            <rect key="frame" x="96" y="8" width="225" height="63.666666666666657"/>
+                                            <rect key="frame" x="96" y="8" width="225" height="64"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUj-Ks-efd">
                                                     <rect key="frame" x="0.0" y="0.0" width="225" height="32"/>
@@ -57,7 +55,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="748" verticalCompressionResistancePriority="748" text="Channel" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZO-Tm-uwl">
-                                                    <rect key="frame" x="0.0" y="32" width="225" height="31.666666666666671"/>
+                                                    <rect key="frame" x="0.0" y="32" width="225" height="32"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -143,13 +141,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="frl-Zg-cDK">
-                                <rect key="frame" x="0.0" y="481.66666666666674" width="375" height="264.33333333333326"/>
+                                <rect key="frame" x="0.0" y="481.66666666666674" width="375" height="298.33333333333326"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="QCz-SD-Kfi">
-                                        <rect key="frame" x="0.0" y="69.333333333333314" width="375" height="124.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="86.666666666666686" width="375" height="125"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhE-9Q-ndk" customClass="AIImageTwitterButton">
-                                                <rect key="frame" x="0.0" y="0.0" width="125" height="124.66666666666667"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="125" id="DhK-xA-Lk8"/>
                                                     <constraint firstAttribute="height" constant="125" id="s7O-qQ-Yvs"/>
@@ -163,7 +161,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BzM-5J-MF9" customClass="AIImageTwitterButton">
-                                                <rect key="frame" x="125" y="0.0" width="125" height="124.66666666666667"/>
+                                                <rect key="frame" x="125" y="0.0" width="125" height="125"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="125" id="Ltd-jo-vUW"/>
                                                     <constraint firstAttribute="width" constant="125" id="Y80-jT-8bd"/>
@@ -177,7 +175,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5J-BI-dlt" customClass="AIImageTwitterButton">
-                                                <rect key="frame" x="250" y="0.0" width="125" height="124.66666666666667"/>
+                                                <rect key="frame" x="250" y="0.0" width="125" height="125"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="125" id="4sO-tD-hGc"/>
                                                     <constraint firstAttribute="width" secondItem="j5J-BI-dlt" secondAttribute="height" multiplier="1:1" id="Y1e-7h-Tmc"/>
@@ -204,7 +202,7 @@
                                 </constraints>
                             </view>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offline Video" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obu-rv-bfL">
-                                <rect key="frame" x="16" y="741.66666666666663" width="343" height="20.333333333333371"/>
+                                <rect key="frame" x="16" y="775.66666666666663" width="343" height="20.333333333333371"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -494,7 +492,7 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Playlist Title" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vaz-Y9-Uc1">
-                                            <rect key="frame" x="96" y="29" width="229" height="20.333333333333329"/>
+                                            <rect key="frame" x="96" y="30" width="229" height="20.333333333333329"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
@@ -599,7 +597,7 @@
                                             </constraints>
                                         </imageView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Smr-Za-a8L">
-                                            <rect key="frame" x="96" y="8" width="225" height="63.666666666666657"/>
+                                            <rect key="frame" x="96" y="8" width="225" height="64"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yF0-u6-zvU">
                                                     <rect key="frame" x="0.0" y="0.0" width="225" height="32"/>
@@ -608,7 +606,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="748" verticalCompressionResistancePriority="748" text="Channel" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkl-7L-N7T">
-                                                    <rect key="frame" x="0.0" y="32" width="225" height="31.666666666666671"/>
+                                                    <rect key="frame" x="0.0" y="32" width="225" height="32"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -643,7 +641,20 @@
                             <outlet property="delegate" destination="jvK-Ad-iDL" id="ccW-Df-0Vc"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Playlist" id="EeC-Ob-Xea"/>
+                    <navigationItem key="navigationItem" title="Playlist" id="EeC-Ob-Xea">
+                        <rightBarButtonItems>
+                            <barButtonItem title="Shuffle" image="Shuffle" id="agA-pT-nCv">
+                                <connections>
+                                    <action selector="ShuffleVideos:" destination="jvK-Ad-iDL" id="1Kn-pE-SEk"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Edit" id="v67-GK-vuD">
+                                <connections>
+                                    <action selector="EditTitle:" destination="jvK-Ad-iDL" id="LIU-lk-bdG"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mzg-pK-Ad9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -764,6 +775,7 @@
     <resources>
         <image name="Checkmark" width="30" height="30"/>
         <image name="Playlists" width="30" height="30"/>
+        <image name="Shuffle" width="30" height="30"/>
         <image name="download.png" width="30" height="30"/>
         <image name="help" width="30" height="30"/>
         <image name="list" width="30" height="30"/>

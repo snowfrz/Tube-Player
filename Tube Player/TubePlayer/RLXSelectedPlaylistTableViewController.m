@@ -34,12 +34,64 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
-    
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)EditTitle:(id)sender
+{
+    UIAlertController * alertController = [UIAlertController alertControllerWithTitle: @"Edit Playlist Name" message: @"Change this playlist's name" preferredStyle:UIAlertControllerStyleAlert];
+    [alertController addTextFieldWithConfigurationHandler:^(UITextField *textField)
+     {
+         textField.autocapitalizationType = UITextAutocapitalizationTypeWords;
+         textField.placeholder = self->_playlistArray[0];
+     }];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleDefault handler:nil]];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action)
+                                {
+                                    NSArray * textfields = alertController.textFields;
+                                    UITextField * nameField = textfields[0];
+                                    NSString *userInput = nameField.text;
+                                    
+                                    NSMutableArray *playlists = [[[NSUserDefaults standardUserDefaults] objectForKey:@"Playlists"] mutableCopy];
+                                    
+                                    //if the playlist already exists, just add the video to it
+                                    BOOL nameExists = NO;
+                                    for (NSMutableArray *playlist in playlists)
+                                    {
+                                        NSString *title = playlist[0];
+                                        if ([title isEqualToString:userInput])
+                                        {
+                                            nameExists = YES;
+                                        }
+                                    }
+                                    
+                                    int playlistIndex = (int)[playlists indexOfObject:self->_playlistArray];
+                                    
+                                    if (nameExists != YES)
+                                    {
+                                        NSMutableArray *playlist = [playlists[playlistIndex] mutableCopy];
+                                        [playlist replaceObjectAtIndex:0 withObject:userInput];
+                                        [playlists replaceObjectAtIndex:playlistIndex withObject:playlist];
+                                    }
+                                    else
+                                    {
+                                        UIAlertController *anotherAlert = [UIAlertController alertControllerWithTitle:@"Playlist name exists already" message:@"Please choose another playlist name" preferredStyle:UIAlertControllerStyleAlert];
+                                        [anotherAlert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil]];
+                                        [self presentViewController:anotherAlert animated:YES completion:nil];
+                                    }
+                                    
+                                    [[NSUserDefaults standardUserDefaults] setObject:playlists forKey:@"Playlists"];
+                                    
+                                    self->_playlistArray =  [[[NSUserDefaults standardUserDefaults] objectForKey:@"Playlists"] objectAtIndex:playlistIndex];
+                                    
+                                    self.title = self->_playlistArray[0];
+                                }]];
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 #pragma mark - Table view data source
@@ -150,13 +202,44 @@
     //go to the player, and pass it the necessary information
     int selectedIndex = (int)indexPath.row;
     
+    [self reformatArrayWithArray:_playlistArray andSelectedIndex:selectedIndex];
+}
+
+- (IBAction)ShuffleVideos:(id)sender
+{
+    NSMutableSet *shuffleSet = [[NSMutableSet alloc] init];
+    
+    int maxInt = (int)[_playlistArray count];
+    
+    NSMutableArray *usedNumbers = [[NSMutableArray alloc] init];
+    
+    for (int i = 0; i < maxInt; i++)
+    {
+        int chosenVideo;
+        do
+        {
+           chosenVideo = arc4random_uniform(maxInt);
+        }
+        while ([usedNumbers containsObject:[NSNumber numberWithInt:chosenVideo]]);
+        
+        [usedNumbers addObject:[NSNumber numberWithInt:chosenVideo]];
+        [shuffleSet addObject:[_playlistArray objectAtIndex:chosenVideo]];
+    }
+    
+    NSMutableArray *arrayToConvert = [[shuffleSet allObjects] mutableCopy];
+    
+    [self reformatArrayWithArray:arrayToConvert andSelectedIndex:0];
+}
+
+- (void)reformatArrayWithArray:(NSMutableArray *)videoListArray andSelectedIndex:(int)selectedIndex
+{
     AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     
     [delegate.mediaViewController stopVideo];
     
     NSMutableArray *downloadedVideosArray = [[NSUserDefaults standardUserDefaults] objectForKey:@"downloadedVideos"];
     BOOL isCached;
-    if ([downloadedVideosArray containsObject:[_playlistArray[indexPath.row + 1] objectForKey:@"videoID"]])
+    if ([downloadedVideosArray containsObject:[videoListArray[selectedIndex + 1] objectForKey:@"videoID"]])
     {
         isCached = YES;
     }
@@ -167,9 +250,9 @@
     
     //reformat the array for the player
     NSMutableArray *playlistArrayToSend = [[NSMutableArray alloc] init];
-    for (NSDictionary *video in _playlistArray)
+    for (NSDictionary *video in videoListArray)
     {
-        if ([_playlistArray indexOfObject:video] > 0)
+        if ([videoListArray indexOfObject:video] > 0)
         {
             NSMutableArray *arrayToAdd = [[NSMutableArray alloc] init];
             [arrayToAdd addObject:video[@"videoID"]];
@@ -187,10 +270,7 @@
         }
     }
     
-    [delegate.mediaViewController setVideoInformationWithIdentifier:[_playlistArray[indexPath.row + 1] objectForKey:@"videoID"] andTitle:[_playlistArray[indexPath.row + 1] objectForKey:@"videoTitle"] andChannel:[_playlistArray[indexPath.row + 1] objectForKey:@"channelName"] andPlaylist:playlistArrayToSend andCurrentIndexInPlaylist:selectedIndex andThumbailURL:[_playlistArray[indexPath.row + 1] objectForKey:@"thumbnail"] andResetPlayer:YES andIsCached:isCached];
-    
-    //doing it with this line crashes because the view controller is active in the Now Playing tab
-    //[self presentViewController:delegate.mediaPlayerNavigationController animated:YES completion:nil];
+    [delegate.mediaViewController setVideoInformationWithIdentifier:[videoListArray[selectedIndex + 1] objectForKey:@"videoID"] andTitle:[videoListArray[selectedIndex+ 1] objectForKey:@"videoTitle"] andChannel:[videoListArray[selectedIndex + 1] objectForKey:@"channelName"] andPlaylist:playlistArrayToSend andCurrentIndexInPlaylist:selectedIndex andThumbailURL:[videoListArray[selectedIndex + 1] objectForKey:@"thumbnail"] andResetPlayer:YES andIsCached:isCached];
     
     for (UIViewController *vc in self.tabBarController.viewControllers)
     {

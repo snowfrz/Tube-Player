@@ -162,7 +162,12 @@
     {
         if ([videoPlayerViewController.moviePlayer endPlaybackTime] <= 0)
         {
-            [self skipVideo:nil];
+            [videoPlayerViewController.moviePlayer setFullscreen:NO animated:YES];
+            
+            if (playlistIndex < [playlistArray count] - 1)
+            {
+                [self skipVideo:nil];
+            }
         }
     }
     #pragma clang diagnostic pop
