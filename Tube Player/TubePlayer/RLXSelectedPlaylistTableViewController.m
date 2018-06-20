@@ -207,13 +207,15 @@
 
 - (IBAction)ShuffleVideos:(id)sender
 {
-    NSMutableSet *shuffleSet = [[NSMutableSet alloc] init];
+    NSMutableArray *shuffleSet = [[NSMutableArray alloc] init];
     
     int maxInt = (int)[_playlistArray count];
     
     NSMutableArray *usedNumbers = [[NSMutableArray alloc] init];
+    [usedNumbers addObject:[NSNumber numberWithInt:0]];
+    [shuffleSet addObject:_playlistArray[0]];
     
-    for (int i = 0; i < maxInt; i++)
+    for (int i = 1; i < maxInt; i++)
     {
         int chosenVideo;
         do
@@ -226,9 +228,7 @@
         [shuffleSet addObject:[_playlistArray objectAtIndex:chosenVideo]];
     }
     
-    NSMutableArray *arrayToConvert = [[shuffleSet allObjects] mutableCopy];
-    
-    [self reformatArrayWithArray:arrayToConvert andSelectedIndex:0];
+    [self reformatArrayWithArray:shuffleSet andSelectedIndex:0];
 }
 
 - (void)reformatArrayWithArray:(NSMutableArray *)videoListArray andSelectedIndex:(int)selectedIndex
