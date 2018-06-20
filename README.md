@@ -44,7 +44,7 @@ Here are the commands and their functions:
 # Issues and Limitations
 - Can't log in to YouTube accounts (because of the YouTube API)
 - Can't reorder playlists, or videos within the playlists
-- No shuffle function yet
+~- No shuffle function yet~ Added in version 1.1.0
 - No nested playlists (folder system)
 - Image disappears sometimes if you exit the app and come back in during playback (you can make it reappear by switching to another tab, then back to the Now Playing tab)
 
